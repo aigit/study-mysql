@@ -21,4 +21,18 @@
 ![img_2.png](img_2.png) 
 
 二、索引 
-![img_3.png](img_3.png)
+![img_3.png](img_3.png)  
+![img_4.png](img_4.png)
+explain 执行计划
+```html
+extra:
+    using index condition: 查询使用到了索引，但是需要回表查询数据
+    using index,using where: 查询使用到了索引，但是需要的数据都能在索引列中找到，所以不需要回表
+``` 
+![img_5.png](img_5.png) 
+
+三、优化
+limit
+```html
+数据量大的时候使用覆盖索引+子查询，先查出分页主键 再用in
+```
