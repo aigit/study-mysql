@@ -21,6 +21,7 @@
 ![img_2.png](img_2.png) 
 
 二、索引 
+![img_6.png](img_6.png)
 ![img_3.png](img_3.png)  
 ![img_4.png](img_4.png)
 explain 执行计划
