@@ -16,21 +16,21 @@
 ```
 
 
-![img.png](img.png)
-![img_1.png](img_1.png)
-![img_2.png](img_2.png) 
+![img.png](索引注意事项1.png)
+![img_1.png](索引注意事项2.png)
+![img_2.png](索引注意事项3.png) 
 
 二、索引 
-![img_6.png](img_6.png)
-![img_3.png](img_3.png)  
-![img_4.png](img_4.png)
+![img_6.png](B+树支持容量.png)
+![img_3.png](B+tree支持容量.png)  
+![img_4.png](索引设计原则.png)
 explain 执行计划
 ```html
 extra:
     using index condition: 查询使用到了索引，但是需要回表查询数据
     using index,using where: 查询使用到了索引，但是需要的数据都能在索引列中找到，所以不需要回表
 ``` 
-![img_5.png](img_5.png) 
+![img_5.png](orderby优化.png) 
 
 三、优化
 limit
